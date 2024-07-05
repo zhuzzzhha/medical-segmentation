@@ -50,7 +50,7 @@ https://github.com/antonioguj/bronchinet
 Focal loss обычно используется для борьбы с классовым дисбалансом. Он обобщает BCE и параметр фокусировки, гамма, введен для более строгого наказания за образцы, которые трудно классифицировать.
 относительно легко классифицируемых образцов.
 
-### Learning Bronchiole-Sensitive Airway Segmentation CNNs by Feature Recalibration and Attention Distillation
+## Learning Bronchiole-Sensitive Airway Segmentation CNNs by Feature Recalibration and Attention Distillation
 Используется расширенная U-net. Добавлены 4 pooling слоя, на каждом масштабе и энкодер и декодер имеют 2 сверточных слоя, за которыми следуют нормализация. Перекалибровка и дистилляция внимания
 
 ### Loss
